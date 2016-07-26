@@ -55,7 +55,7 @@ Chess.prototype.init=function(id){
 ```
 然后分别实现`CanvasChess`(位于canvasChess.js)和`DomChess`(位于domChess.js)子类.
 同时，把判断棋子状态和输赢的业务放在juge.js.
-```vbscript-html
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,4 +78,4 @@ Chess.prototype.init=function(id){
 </body>
 </html>
 ```
-在HTML的DOM结构中只需要切换注释的样式和元素标签以及 子类脚本就能快速从canvas实现转换层dom实现。
+在HTML的DOM结构中只需要切换注释的样式和元素标签以及 子类脚本就能快速从canvas实现转换层dom实现。在实际运营中，可以通过检测浏览器是否支持canvas特性，很方便的加载对应的结构。
